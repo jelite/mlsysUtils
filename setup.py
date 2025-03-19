@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mlsysUtils",  # 패키지명 (변경 가능)
+    name="mlsysutil",  # 패키지명 (변경 가능)
     version="0.1.0",  # 버전
     author="texnee",
     author_email="texnee@gmail.com",

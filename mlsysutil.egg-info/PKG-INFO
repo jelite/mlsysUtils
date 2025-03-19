@@ -1,3 +1,17 @@
+Metadata-Version: 2.2
+Name: mlsysutil
+Version: 0.1.0
+Summary: A package for AI system Utils
+Home-page: https://github.com/jelite/mlsysUtils
+Author: texnee
+Author-email: texnee@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: requires-python
+
 # MyPackage
 
 This package provides functionality for CUDA Graph capturing in PyTorch. It includes a warm-up function and CUDA Graph capture function to optimize inference execution.

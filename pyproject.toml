@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mlsysUtils"
+name = "mlsysutil"
 version = "0.1.0"
 description = "A package for AI system Utils"
 readme = "README.md"
