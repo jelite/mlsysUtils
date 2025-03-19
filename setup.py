@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="graph_mlsys",  # 패키지명 (변경 가능)
+    name="mlsysUtils",  # 패키지명 (변경 가능)
     version="0.1.0",  # 버전
     author="texnee",
     author_email="texnee@gmail.com",
-    description="A package for graph capture functionality",
+    description="A package for AI System Utils",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/graph_mlsys",  # GitHub 또는 프로젝트 URL
+    url="https://github.com/jelite/mlsysUtils",  # GitHub 또는 프로젝트 URL
     packages=find_packages(),  # mypackage/ 폴더를 패키지로 포함
     classifiers=[
         "Programming Language :: Python :: 3",

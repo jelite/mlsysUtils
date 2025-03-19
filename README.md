@@ -7,20 +7,20 @@ This package provides functionality for CUDA Graph capturing in PyTorch. It incl
 To install this package, run the following command:
 
 ```sh
-pip install graph_mlsys
+pip install mlsysUtils
 ```
 
 Or install from the local build:
 
 ```sh
-pip install dist/graph_mlsys-0.1.0-py3-none-any.whl
+pip install dist/mlsysUtils-0.1.0-py3-none-any.whl
 ```
 
 ## Usage
 
 ```python
 import torch
-from graph_mlsys.graph_capture import get_graph
+from mlsysUtils.graph_capture import get_graph
 
 model = torch.nn.Linear(10, 10).cuda()
 input_tensor = torch.randn(1, 10).cuda()
